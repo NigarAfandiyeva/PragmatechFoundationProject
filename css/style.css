@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+}
+
+#header {
+    height: 100%;
+    border: 1px solid yellow;
+}
+
+.register {
+    border: 1px solid green;
+    height: 30px;
+}
+
+.nav {
+    border: 1px solid red;
+    height: 60px;
+}
+
+.mainbar {
+    border: 1px solid black;
+    height: 350px;
+    width: 100%;
+    background-image: url(../img/download.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
