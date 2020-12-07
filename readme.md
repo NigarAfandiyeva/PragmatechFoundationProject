@@ -2,7 +2,7 @@ Layihe haqqinda qisa melumat
     - Sexsi istifade sayti
     - Istifade edeceyim templateler
     - https://colorlib.com/wp/template/studylab/
-    - https://colorlib.com/wp/template/academy/
+   
 
 Layihe 4 bolmeden ibaretdir.
     - Ana sehife
