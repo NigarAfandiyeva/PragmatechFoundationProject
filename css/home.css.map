@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/home/home.scss",
+        "../sass/home/_header.scss",
+        "../sass/home/_twophotos.scss",
+        "../sass/home/_consultation.scss",
+        "../sass/home/_slider.scss",
+        "../sass/home/_stdcomment.scss",
+        "../sass/home/_footer.scss"
+    ],
+    "names": [],
+    "file": "home.css"
+}

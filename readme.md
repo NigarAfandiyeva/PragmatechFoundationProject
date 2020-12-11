@@ -10,10 +10,13 @@ Layihe 4 bolmeden ibaretdir.
     - Universitetler
     - Teqaudler
 
-    #Day 01
+    # Day 01
     - Layihenin folder strukturunun qurulmasi
     - ana sehifenin hazirlanmasi CSS
 
-    #Day 02
-    -Header quruldu
-    -Section_1 ve Section_2 quruldu,sekilde problem oldu
+    # Day 02
+    - Header quruldu
+    - Section_1 ve Section_2 quruldu,sekilde problem oldu
+
+    # Day 03
+    - Sass folder strukturunun qurulmasi

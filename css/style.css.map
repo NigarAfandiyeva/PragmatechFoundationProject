@@ -1,0 +1,18 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,GAAG;EACX,WAAW,EDDH,WAAW,EACvB,cAAc,EACd,OAAO,EACP,cAAc,EACd,UAAU;CCFT",
+    "sources": [
+        "../sass/style.scss",
+        "../sass/_variables.scss",
+        "../sass/_general.scss",
+        "../sass/home/home.scss",
+        "../sass/home/_header.scss",
+        "../sass/home/_twophotos.scss",
+        "../sass/home/_consultation.scss",
+        "../sass/home/_slider.scss",
+        "../sass/home/_stdcomment.scss",
+        "../sass/home/_footer.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
