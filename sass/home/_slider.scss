@@ -1,0 +1,12 @@
+#slider {
+    .container {
+        .row {
+            height: 130px;
+            margin: 15px 100px;
+            .col-2 {
+                background: url(/img/student.png);
+                background-size: cover;
+            }
+        }
+    }
+}

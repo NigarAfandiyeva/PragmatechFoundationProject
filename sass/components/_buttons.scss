@@ -1,0 +1,18 @@
+.btn {
+    border: none;
+    background: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btn-border-white {
+    border: 1px solid orange;
+    color: rgb(12, 97, 86);
+    &:hover {
+        background: rgb(12, 97, 86);
+        color: white;
+        border: 1px solid orange;
+    }
+}

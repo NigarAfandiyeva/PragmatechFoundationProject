@@ -1,0 +1,21 @@
+#stdcomment {
+    .container {
+        background: rgb(233, 243, 213);
+        .row {
+            height: 250px;
+            margin: 20px 40px;
+            .col-7,
+            .col-5 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background: white;
+                margin: 20px 10px;
+                border-radius: 20px;
+                .p {
+                    margin: 0px 45px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.btn {
+  border: none;
+  background: none;
+  padding: 7px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.btn-border-white {
+  border: 1px solid orange;
+  color: #0c6156;
+}
+
+.btn-border-white:hover {
+  background: #0c6156;
+  color: white;
+  border: 1px solid orange;
+}
+/*# sourceMappingURL=components.css.map */

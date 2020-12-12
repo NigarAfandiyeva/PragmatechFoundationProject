@@ -1,5 +1,202 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 5px black;
+          box-shadow: 0px 0px 5px black;
+  border-radius: 5px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+[class^="col-"] {
+  margin: 10px;
+}
+
+.col-1 {
+  width: 8.33333%;
+}
+
+.col-2 {
+  width: 16.66667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33333%;
+}
+
+.col-5 {
+  width: 41.66667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33333%;
+}
+
+.col-8 {
+  width: 66.66667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33333%;
+}
+
+.col-11 {
+  width: 91.66667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.btn {
+  border: none;
+  background: none;
+  padding: 7px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.btn-border-white {
+  border: 1px solid orange;
+  color: #0c6156;
+}
+
+.btn-border-white:hover {
+  background: #0c6156;
+  color: white;
+  border: 1px solid orange;
+}
+
 body {
   margin: 0px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.border {
+  border: 1px solid gray;
+}
+
+#twophotos .container {
+  width: 100%;
+}
+
+#twophotos .container .row {
+  margin: 20px 40px;
+  height: 170px;
+}
+
+#twophotos .container .row .col-3 {
+  margin: 10px 15px;
+}
+
+#twophotos .container .row .poland {
+  background: url(/img/poland.png);
+  background-size: cover;
+}
+
+#twophotos .container .row .venice {
+  background: url(/img/venice.png);
+  background-size: cover;
+}
+
+#consultation .container {
+  background: #e9f3d5;
+}
+
+#consultation .container .row {
+  height: 270px;
+}
+
+#consultation .container .row .col-7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  border-radius: 35px;
+}
+
+#consultation .container .row .col-7 .p {
+  margin: 0px;
+  padding: 0px;
+}
+
+#consultation .container .row .col-5 {
+  background: url(/img/consultation.png);
+  background-size: cover;
+  border-radius: 35px;
+}
+
+#slider .container .row {
+  height: 130px;
+  margin: 15px 100px;
+}
+
+#slider .container .row .col-2 {
+  background: url(/img/student.png);
+  background-size: cover;
+}
+
+#stdcomment .container {
+  background: #e9f3d5;
+}
+
+#stdcomment .container .row {
+  height: 250px;
+  margin: 20px 40px;
+}
+
+#stdcomment .container .row .col-7,
+#stdcomment .container .row .col-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  margin: 20px 10px;
+  border-radius: 20px;
+}
+
+#stdcomment .container .row .col-7 .p,
+#stdcomment .container .row .col-5 .p {
+  margin: 0px 45px;
 }
 /*# sourceMappingURL=style.css.map */
