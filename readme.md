@@ -23,3 +23,6 @@
 
     # Day 04
       - Ana səhifənin davamı
+
+    # Day 04
+      - Ana sehife tamamlandi
