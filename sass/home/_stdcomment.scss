@@ -1,6 +1,5 @@
 #stdcomment {
     .container {
-        background: rgb(233, 243, 213);
         .row {
             height: 250px;
             margin: 20px 40px;
@@ -11,9 +10,10 @@
                 align-items: center;
                 background: white;
                 margin: 20px 10px;
-                border-radius: 20px;
+                border-radius: 4px;
                 .p {
                     margin: 0px 45px;
+                    text-align: center;
                 }
             }
         }

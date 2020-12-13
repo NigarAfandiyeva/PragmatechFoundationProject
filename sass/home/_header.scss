@@ -1,0 +1,108 @@
+#header {
+    .container {
+        background-image: url(/img/header1.jpeg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        height: 420px;
+        position: relative;
+        .navbar {
+            width: 1025px;
+            height: 13%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 30px;
+            box-sizing: border-box;
+            color: $main-color;
+            font-weight: bold;
+            font-size: 14px;
+            .navbar-left {
+                width: 70%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                .logo {
+                    background: linear-gradient(#eeb790, #d2691e);
+                    padding: 20px;
+                }
+                .categories {
+                    ul {
+                        display: flex;
+                        list-style-type: none;
+                        box-sizing: border-box;
+                        a {
+                            padding: 0px 10px;
+                            color: $main-color;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            .navbar-right {
+                width: 20%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+        }
+        .mainbar {
+            width: 1025px;
+            height: 87%;
+            // display: flex;
+            // flex-direction: column;
+            // justify-content: center;
+            .platform {
+                width: 60%;
+                padding: 85px 70px;
+                box-sizing: border-box;
+                color: rgb(252, 250, 250);
+                text-align: center;
+            }
+            .applyform {
+                position: absolute;
+                top: 160px;
+                right: 140px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                box-sizing: border-box;
+                padding: 25px 10px;
+                border-radius: 5px;
+                box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+                background: white;
+                h2 {
+                    margin: 0px 0px 20px 12px;
+                    font-size: 15px;
+                    color: rgb(168, 83, 23);
+                    font-weight: bold;
+                }
+                .form {
+                    position: relative;
+                    height: 20px;
+                    margin: 15px;
+                    input {
+                        width: 100%;
+                        height: 100%;
+                        color: #595f6e;
+                        padding-top: 20px;
+                        border: none;
+                        border-bottom: 1px solid black;
+                    }
+                    label {
+                        position: absolute;
+                        top: 0px;
+                        left: 0%;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                    }
+                }
+                .btn {
+                    padding: 30px 80px 0px;
+                    color: rgb(168, 83, 23);
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+}

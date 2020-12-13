@@ -13,45 +13,75 @@
 <body>
     <!--header-->
     <header id="header">
-        <div class="navbar">
-            <div class="navbar-left">
-                <div class="logo">EduZone</div>
-                <div class="categories">
-                    <ul>
-                        <li>Ana səhifə</li>
-                        <li>Haqqımızda</li>
-                        <li>Universitetlər</li>
-                        <li>Təqaüd</li>
-                        <li>Əlaqə</li>
-                    </ul>
+        <div class="container">
+            <!-- <img src="/img/header1.jpeg"> -->
+            <div class="navbar">
+                <div class="navbar-left">
+                    <div class="logo">Educazione</div>
+                    <div class="categories">
+                        <ul>
+                            <a href="#">
+                                <li>Ana səhifə</li>
+                            </a>
+                            <a href="#">
+                                <li>Haqqımızda</li>
+                            </a>
+                            <a href="#">
+                                <li>Universitetlər</li>
+                            </a>
+                            <a href="#">
+                                <li>Təqaüd</li>
+                            </a>
+                            <a href="#">
+                                <li>Əlaqə</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-right">
+                    <span><i class="fas fa-search"></i></span>
+                    <div class="login">Daxil olun</div>
+                    <div class="signin">Qeydiyyat</div>
+
                 </div>
             </div>
-            <div class="navbar-right">
-                <div class="login">Daxil olun</div>
-                <div class="signin">Qeydiyyat</div>
-                <span><i class="fas fa-search"></i></span>
+            <div class="mainbar">
+                <div class="platform">
+                    <h2>Xaricdə Təhsil Bir Addımlığında</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore fuga dolor officiis atque dolores molestias iure ratione aspernatur rem, sunt soluta porro voluptatum facere error nulla impedit voluptatem molestiae quia!</p>
+                </div>
+                <div class="applyform ">
+                    <h2>Müraciət formu</h2>
+                    <div class="form">
+                        <input type="text" name="name" autocomplete="off" required />
+                        <label for="name" class="label-name">
+                            <span class="content-name">Name and Surname</span>
+                        </label>
+                    </div>
+                    <div class="form">
+                        <input type="text" name="email" autocomplete="off" required />
+                        <label for="email" class="label-email">
+                            <span class="content-email">Email</span>
+                        </label>
+                    </div>
+                    <div class="form">
+                        <input type="text" name="phone" autocomplete="off" required />
+                        <label for="phone" class="label-phone">
+                            <span class="content-phone">Phone</span>
+                        </label>
+                    </div>
+                    <a href="#"><i class=" btn fas fa-paper-plane"></i></a>
+                </div>
             </div>
         </div>
-        <div class="mainbar">
-            <div class="platform">
-                <h2>We Are Online Platform For Study</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore fuga dolor officiis atque dolores molestias iure ratione aspernatur rem, sunt soluta porro voluptatum facere error nulla impedit voluptatem molestiae quia!</p>
-            </div>
-            <div class="muracietform">
-                <h2>Müraciət formu</h2>
-                <input type="text" id="name" placeholder="Ad və soyadınızı daxil edin">
-                <input type="text" id="email" placeholder="Email adresinizi daxil edin">
-                <input type="text" id="phone" placeholder="Əlaqə nömrənizi daxil edin">
-                <button class="btn btn-border-white">Müraciət edin</button>
-            </div>
-        </div>
+
     </header>
     <!--end of header-->
     <section id="twophotos">
         <div class="container">
             <div class="row">
-                <div class="poland col-3 box">1</div>
-                <div class="venice col-3 box">2</div>
+                <div class="poland col-3 box"></div>
+                <div class="venice col-3 box"></div>
                 <div class="col-5"></div>
             </div>
         </div>
@@ -73,13 +103,34 @@
     </section>
     <section id="slider">
         <div class="container">
-            <div class="row">
-                <div class="col-2 box"></div>
-                <div class="col-2 box"></div>
-                <div class="col-2 box"></div>
-                <div class="col-2 box"></div>
-                <div class="col-2 box"></div>
+            <div class="col-4 box">
+                <div class="imgBx">
+                    <img src="/img/turkey1.jpeg">
+                </div>
+                <div class="content">
+                    <h2>Turkey</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta nisi accusamus harum dolores unde expedita iste tempora, assumenda</p>
+                </div>
             </div>
+            <div class="col-4 box">
+                <div class="imgBx">
+                    <img src="/img/italy1.jpeg">
+                </div>
+                <div class="content">
+                    <h2>Italy</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta nisi accusamus harum dolores unde expedita iste tempora, assumenda</p>
+                </div>
+            </div>
+            <div class="col-4 box">
+                <div class="imgBx">
+                    <img src="/img/poland1.jpeg">
+                </div>
+                <div class="content">
+                    <h2>Poland</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta nisi accusamus harum dolores unde expedita iste tempora, assumenda</p>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
     <section id="stdcomment">
@@ -103,7 +154,7 @@
     </section>
     <footer id="footer">
         <div class="container">
-            <div class="row">
+            <div class="footer-header">
                 <div class="col-4">
                     <h4>Educazione</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -114,13 +165,13 @@
                 </div>
                 <div class="col-4">
                     <h4>Sosial Media</h4>
-                    <i>Face</i>
-                    <i>Insta</i>
-                    <i>Link</i>
-                    <i>WP</i>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a href=""><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
-            <div class="row">
+            <div class="copyright">
                 Copyright @ Educazione
             </div>
         </div>
