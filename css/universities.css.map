@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,WADO,CACP,iBAAiB,CAAC;EACd,MAAM,EAAE,eAAe;EACvB,MAAM,EAAE,KAAK;CAkBhB;;AArBL,AAKQ,WALG,CACP,iBAAiB,CAIb,MAAM,CAAC;EACH,MAAM,EAAE,eAAe;CAG1B;;AATT,AAUQ,WAVG,CACP,iBAAiB,CASb,OAAO,CAAC;EACJ,MAAM,EAAE,eAAe;CAS1B",
+    "sources": [
+        "../sass/universities/universities.scss"
+    ],
+    "names": [],
+    "file": "universities.css"
+}

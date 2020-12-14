@@ -1,0 +1,13 @@
+#categories .univer-container {
+  border: 1px solid black;
+  height: 500px;
+}
+
+#categories .univer-container .col-2 {
+  border: 1px solid black;
+}
+
+#categories .univer-container .col-10 {
+  border: 1px solid black;
+}
+/*# sourceMappingURL=universities.css.map */

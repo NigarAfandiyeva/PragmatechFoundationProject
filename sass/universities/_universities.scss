@@ -1,0 +1,70 @@
+#categories {
+    padding-top: 20px;
+    @extend .flex-fd-column;
+    align-items: center;
+    .univer-container {
+        width: 60%;
+        @extend .flex-jc-center;
+        .col-2 {
+            margin: 0px;
+            height: 315px;
+            margin: 5px;
+            box-sizing: border-box;
+            margin-right: 20px;
+            h3 {
+                padding: 15px;
+                font-weight: bold;
+                border-bottom: 1px solid gray;
+            }
+            .countries ul li {
+                padding: 5px 10px;
+                border-bottom: 1px solid gray;
+            }
+        }
+        .col-10 {
+            margin: 0px;
+            @extend .flex-fd-column;
+            align-items: center;
+            .col-4 {
+                height: 105px;
+                margin: 0px;
+                width: 100%;
+                @extend.flex-jc-center;
+                text-align: center;
+                .col-3 {
+                    // border: solid 1px gray;
+                    margin: 5px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 4px;
+                    }
+                }
+                .col-9 {
+                    position: relative;
+                    border: solid 1px gray;
+                    margin: 5px;
+                    // display: flex;
+                    // justify-content: flex-start;
+                    .univer-detail {}
+                    h1 {
+                        padding: 20px 200px 0px 0px;
+                        box-sizing: border-box;
+                        font-size: 18px;
+                    }
+                    h4 {
+                        padding: 20px 230px 0px 0px;
+                        box-sizing: border-box;
+                        font-size: 17px;
+                    }
+                    span {
+                        position: absolute;
+                        bottom: 10px;
+                        right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
