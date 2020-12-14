@@ -5,8 +5,7 @@
             margin: 20px 40px;
             .col-7,
             .col-5 {
-                display: flex;
-                flex-direction: column;
+                @extend .flex-fd-column;
                 align-items: center;
                 background: white;
                 margin: 20px 10px;

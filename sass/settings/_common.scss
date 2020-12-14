@@ -5,3 +5,22 @@
 // *fd = flex-direction
 // *jc = justify-content
 // *ai = align-items
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-jc-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-fd-column {
+    display: flex;
+    flex-direction: column;
+}

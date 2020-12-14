@@ -9,8 +9,7 @@
         .navbar {
             width: 1025px;
             height: 13%;
-            display: flex;
-            justify-content: space-between;
+            @extend .flex-space-between;
             padding: 0px 30px;
             box-sizing: border-box;
             color: $main-color;
@@ -18,8 +17,7 @@
             font-size: 14px;
             .navbar-left {
                 width: 70%;
-                display: flex;
-                justify-content: space-around;
+                @extend .flex-space-around;
                 align-items: center;
                 .logo {
                     background: linear-gradient(#eeb790, #d2691e);
@@ -40,17 +38,13 @@
             }
             .navbar-right {
                 width: 20%;
-                display: flex;
-                justify-content: space-around;
+                @extend .flex-space-around;
                 align-items: center;
             }
         }
         .mainbar {
             width: 1025px;
             height: 87%;
-            // display: flex;
-            // flex-direction: column;
-            // justify-content: center;
             .platform {
                 width: 60%;
                 padding: 85px 70px;
@@ -62,8 +56,7 @@
                 position: absolute;
                 top: 160px;
                 right: 140px;
-                display: flex;
-                flex-direction: column;
+                @extend .flex-fd-column;
                 justify-content: flex-end;
                 box-sizing: border-box;
                 padding: 25px 10px;

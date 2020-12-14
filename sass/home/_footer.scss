@@ -5,8 +5,7 @@
         color: white;
         .footer-header {
             height: 80%;
-            display: flex;
-            justify-content: space-between;
+            @extend .flex-space-between;
             .col-4 {
                 margin: 0 20px;
                 text-align: center;

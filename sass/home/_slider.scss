@@ -2,8 +2,7 @@
     .container {
         height: 340px;
         position: relative;
-        display: flex;
-        justify-content: center;
+        @extend .flex-jc-center;
         align-items: center;
         background: #16384c;
         width: 100%;
@@ -13,8 +12,7 @@
             height: 230px;
             margin: 0px 20px;
             position: relative;
-            display: flex;
-            flex-direction: column;
+            @extend .flex-fd-column;
             background: #fff;
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
             transition: 0.3s ease-in-out;
